@@ -1,0 +1,341 @@
+*{
+    margin:0px; padding:0px;
+    }
+    /**--Awal index--**/
+    
+    /* CSS Reset: Mengatur margin dan padding untuk semua elemen menjadi 0 */
+    /* Ini memastikan tidak ada margin atau padding bawaan yang diterapkan oleh browser */
+    /* Ini memberikan kontrol yang lebih baik untuk mengatur margin dan padding secara konsisten di seluruh halaman */
+    
+    /* Gaya untuk elemen body */
+    body{
+    font-family:sans-serif; /* Menetapkan jenis font untuk teks di dalam body */
+    font-size:13px; /* Menetapkan ukuran font untuk teks di dalam body */
+    color:black; /* Menetapkan warna teks untuk teks di dalam body */
+    }
+    
+    /* Gaya untuk elemen dengan kelas pagination */
+    .pagination {
+     display: inline-block; /* Mengatur tampilan elemen pagination menjadi inline */
+     
+    
+    }
+    
+    /* Gaya untuk tautan di dalam kelas pagination */
+    .pagination a {
+     color: black; /* Menetapkan warna teks untuk tautan */
+     float: left; /* Mengatur tautan agar berada di sebelah kiri */
+     padding: 8px 16px; /* Memberikan ruang padding pada tautan */
+     text-decoration: none; /* Menghapus dekorasi tautan */
+    
+     
+    }
+    
+    /* Gaya untuk tautan aktif di dalam kelas pagination */
+    .pagination a.active {
+     background-color: red; /* Memberikan warna latar belakang pada tautan aktif */
+     color: white; /* Menetapkan warna teks pada tautan aktif */
+     border-radius: 5px; /* Memberikan sudut bulat pada tautan aktif */
+    }
+    
+    /* Gaya untuk tautan hover di dalam kelas pagination */
+    .pagination a:hover:not(.active) {
+     background-color: #ddd; /* Memberikan warna latar belakang saat tautan dihover */
+     border-radius: 5px; /* Memberikan sudut bulat pada tautan saat dihover */
+    }
+    
+    /* Gaya untuk kontainer utama */
+    #container{
+    width: 99%; /* Menetapkan lebar kontainer */
+    margin:0px auto; /* Memberikan margin atas dan bawah 0, serta margin sisi kiri dan kanan otomatis */
+    border:2px solid #919191; /* Memberikan garis tepi dengan lebar 2px dan warna tertentu */
+    background-color:#C4C4C4; /* Memberikan warna latar belakang kontainer */
+    }
+    
+    /* Gaya untuk bagian header */
+    #header{
+    width:100%; /* Menetapkan lebar header */
+    height:100px; /* Menetapkan tinggi header */
+    background-color:#C4C4C4; /* Memberikan warna latar belakang header */
+    }
+    
+    /* Gaya untuk kontainer logo perpustakaan */
+    #logo-clubmotor-container{
+    float:left; /* Mengatur kontainer logo agar berada di sebelah kiri */
+    width:6%; /* Menetapkan lebar kontainer logo */
+    height:80%; /* Menetapkan tinggi kontainer logo */
+    padding:8px; /* Memberikan ruang padding di sekeliling kontainer logo */
+    }
+    
+    /* Gaya untuk logo perpustakaan */
+    #logo-clubmotor{
+    width:80px; /* Menetapkan lebar logo perpustakaan */
+    height:80px; /* Menetapkan tinggi logo perpustakaan */
+    border:2px solid #FFFFFF; /* Memberikan garis tepi dengan lebar 2px dan warna putih */
+    }
+    
+    /* Gaya untuk kontainer nama dan alamat perpustakaan */
+    #nama-alamat-clubmotor-container{
+    float:left; /* Mengatur kontainer agar berada di sebelah kiri */
+    width:90%; /* Menetapkan lebar kontainer */
+    padding:10px; /* Memberikan ruang padding di dalam kontainer */
+    text-align:center; /* Mengatur teks agar berada di tengah */
+    }
+    
+    /* Gaya untuk nama dan alamat perpustakaan */
+    .nama-alamat-clubmotor{
+     /* Mengatur elemen agar berada di sebelah kiri */
+    width:100%; /* Menetapkan lebar elemen */
+    padding:25px; /* Memberikan ruang padding di dalam elemen */
+    text-align:center; /* Mengatur teks agar berada di tengah */
+    }
+    
+    /* Gaya untuk header kedua */
+    
+        #navbar{
+            
+            width:100%; /* Menetapkan lebar */
+            }
+            
+            /* Gaya untuk baris ganjil pada tabel tampil */
+            
+            
+            /* Gaya untuk header kolom pada tabel tampil */
+            #navbar tr th{
+                border: 1px solid black;
+                background-color:black; /* Memberikan warna latar belakang */
+                color:white; /* Memberikan warna teks */
+                padding:4px; /* Memberikan ruang padding */
+                text-align:left; /* Mengatur teks agar berada di kiri */
+            }
+            
+            /* Gaya untuk sel pada tabel tampil */
+            #navbar td{
+                padding:4px; /* Memberikan ruang padding */
+            }
+            #navbar a:link, #navbar a:visited{
+                text-decoration: none;
+                color: white;
+                display:block;
+            }
+            #navbar-home{
+                width:198px; /* Menetapkan lebar */
+            }
+      
+      
+      
+    
+    
+    
+    /* Gaya untuk sisi bar */
+    #sidebar{
+    float:left; /* Mengatur elemen agar berada di sebelah kiri */
+    width:15.8%; /* Menetapkan lebar sisi bar */
+    border: black;
+    }
+    
+    /* Gaya untuk daftar ul pada sisi bar */
+    #sidebar ul{
+    list-style:none; /* Menghapus gaya daftar bawaan */
+    }
+    
+    /* Gaya untuk tautan pada sisi bar */
+    #sidebar a:link, #sidebar a:visited{
+    color:black; /* Memberikan warna teks */
+    text-decoration:none; /* Menghapus dekorasi tautan */
+    display:block; /* Mengubah tautan menjadi blok */
+    padding:6px; /* Memberikan ruang padding di dalam tautan */
+    }
+    
+    /* Gaya untuk tautan hover pada sisi bar */
+    #sidebar a:hover{
+    background-color:#919191; /* Memberikan warna latar belakang saat dihover */
+    }
+    
+    /* Gaya untuk label navigasi */
+    .label-navigasi{
+    background-color:black; /* Memberikan warna latar belakang */
+    padding:6px; /* Memberikan ruang padding */
+    color:white; /* Memberikan warna teks */
+    font-weight:bold; /* Memberikan ketebalan teks */
+    }
+    
+    /* Gaya untuk kontainer konten */
+    #content-container{
+    float:left; /* Mengatur elemen agar berada di sebelah kiri */
+    width:83.8%; /* Menetapkan lebar kontainer konten */
+    background-color:#FFFFFF; /* Memberikan warna latar belakang */
+    }
+    
+    /* Gaya untuk footer */
+    #footer{
+    width:99.4%; /* Menetapkan lebar footer */
+    height:20px; /* Menetapkan tinggi footer */
+    clear:both; /* Membersihkan float */
+    text-align:center; /* Mengatur teks agar berada di tengah */
+    padding:4px; /* Memberikan ruang padding di dalam footer */
+    background-color:black; /* Memberikan warna latar belakang footer */
+    color:#FFFFFF; /* Memberikan warna teks */
+    }
+    
+    /**--Akhir index.php--**/
+    
+    /**--Awal pages--**/
+    
+    /* Gaya untuk label halaman */
+    #label-page{
+    margin-top:6px; /* Memberikan margin atas */
+    margin-bottom:6px; /* Memberikan margin bawah */
+    margin-left:6px; /* Memberikan margin kiri */
+    border:2px solid #C4C4C4; /* Memberikan garis tepi dengan lebar 2px dan warna tertentu */
+    padding:4px; /* Memberikan ruang padding di dalam kontainer */
+    width:97.9%; /* Menetapkan lebar */
+    }
+    
+    /* Gaya untuk konten */
+    #content {
+        float: left; /* Mengatur elemen agar berada di sebelah kiri */
+        width: 96.8%; /* Menetapkan lebar konten */
+        min-height: 454px; /* Menetapkan tinggi minimum konten */
+        background-image: url('gambar.jpg'); /* Memberikan gambar latar belakang */
+        border: 2px solid #C4C4C4; /* Memberikan garis tepi dengan lebar 2px dan warna tertentu */
+        padding: 10px; /* Memberikan ruang padding di dalam konten */
+        margin-bottom: 6px; /* Memberikan margin bawah */
+    }
+    
+    /* Gaya untuk judul beranda */
+    #beranda-judul{
+    text-align:center; /* Mengatur teks agar berada di tengah */
+    background-color: #FFFFFF; /* Memberikan warna latar belakang */
+    }
+    
+    /* Gaya untuk konten beranda */
+    #beranda-konten{
+    text-align:center; /* Mengatur teks agar berada di tengah */
+    padding-top:140px; /* Memberikan ruang atas */
+    color:red; /* Memberikan warna teks */
+    }
+    
+    /* Gaya untuk tombol */
+    .tombol{
+    border-radius:4px; /* Memberikan sudut bulat */
+    font-size:12px; /* Menetapkan ukuran font */
+    text-decoration:none; /* Menghapus dekorasi tautan */
+    background-color:#F1F1F1; /* Memberikan warna latar belakang */
+    padding-top:3px; /* Memberikan ruang atas */
+    padding-bottom:3px; /* Memberikan ruang bawah */
+    padding-left:5px; /* Memberikan ruang kiri */
+    padding-right:5px; /* Memberikan ruang kanan */
+    border:1px solid #01597E; /* Memberikan garis tepi dengan lebar 1px dan warna tertentu */
+    color:black; /* Memberikan warna teks */
+    }
+    
+    /* Gaya untuk kontainer tombol tambah */
+    #tombol-tambah-container{
+    margin-bottom:10px; /* Memberikan margin bawah */
+    }
+    
+    /* Gaya untuk tautan hover pada kontainer tombol tambah */
+    #tombol-tambah-container a:hover{
+    background-color:#C4C4C4; /* Memberikan warna latar belakang saat dihover */
+    }
+    
+    /* Gaya untuk tabel tampil */
+    #tabel-tampil{
+        border:1px solid #C4C4C4; /* Memberikan garis tepi dengan lebar 1px dan warna tertentu */
+        width:100%; /* Menetapkan lebar */
+        }
+        
+        /* Gaya untuk baris ganjil pada tabel tampil */
+        #tabel-tampil tr:nth-child(odd){
+            background-color:#F1F1F1; /* Memberikan warna latar belakang untuk baris ganjil */
+        }
+        
+        /* Gaya untuk header kolom pada tabel tampil */
+        #tabel-tampil tr th{
+            background-color:red; /* Memberikan warna latar belakang */
+            color:#FFFFFF; /* Memberikan warna teks */
+            padding:4px; /* Memberikan ruang padding */
+            text-align:left; /* Mengatur teks agar berada di kiri */
+        }
+        
+        /* Gaya untuk sel pada tabel tampil */
+        #tabel-tampil td{
+            padding:4px; /* Memberikan ruang padding */
+        }
+        
+        /* Gaya untuk label nomor pada tabel tampil */
+        #label-tampil-no{
+            width:30px; /* Menetapkan lebar */
+        }
+    
+    /* Gaya untuk label nomor pada tabel tampil */
+    
+    
+    /* Gaya untuk label opsi pada tabel tampil */
+    #label-opsi{
+        width:158px; /* Menetapkan lebar */
+        font-weight:bold; /* Memberikan ketebalan teks */
+    }
+    
+    /* Gaya untuk label opsi2 pada tabel tampil */
+    #label-opsi2{
+        width:82px; /* Menetapkan lebar */
+        font-weight:bold; /* Memberikan ketebalan teks */
+    }
+    
+    /* Gaya untuk label opsi3 pada tabel tampil */
+    #label-opsi3{
+        width:166px; /* Menetapkan lebar */
+        font-weight:bold; /* Memberikan ketebalan teks */
+    }
+    
+    /* Gaya untuk kontainer tombol opsi */
+    .tombol-opsi-container {
+        float:left; /* Mengatur elemen agar berada di sebelah kiri */
+    }
+    
+    /* Gaya untuk tautan hover pada kontainer tombol opsi */
+    .tombol-opsi-container a:hover{
+        background-color:#C4C4C4; /* Memberikan warna latar belakang saat dihover */
+    }
+    
+    /* Gaya untuk tabel input */
+    #tabel-input{
+    width:100%; /* Menetapkan lebar */
+    }
+    
+    /* Gaya untuk label formulir */
+    .label-formulir{
+    width:12%; /* Menetapkan lebar */
+    height:36px; /* Menetapkan tinggi */
+    margin:20px; /* Memberikan margin */
+    }
+    
+    /* Gaya untuk isian formulir */
+    .isian-formulir{
+    width:80%; /* Menetapkan lebar */
+    padding:4px; /* Memberikan ruang padding */
+    width:99.8%; /* Menetapkan lebar */
+    }
+    
+    /* Gaya untuk isian formulir2 */
+    .isian-formulir2{
+    width:78%; /* Menetapkan lebar */
+    padding:4px; /* Memberikan ruang padding */
+    width:20%; /* Menetapkan lebar */
+    }
+    .label-formulir2{
+        width:100%; /* Menetapkan lebar elemen label formulir */
+        height:26px; /* Menetapkan tinggi elemen label formulir */
+        margin:20px; /* Memberikan margin pada elemen label formulir */
+        padding-left:16px; /* Memberikan ruang padding pada sisi kiri elemen label formulir */
+        font-weight:bold; /* Memberikan ketebalan pada teks elemen label formulir */
+        }
+        .isian-formulir-border{
+        border:1px solid #C4C4C4; /* Menetapkan garis tepi dengan lebar 1px dan warna tertentu pada elemen isian formulir */
+        }
+        .warna-formulir-disabled{
+        background-color:#F1F1F1; /* Memberikan warna latar belakang tertentu pada elemen formulir saat dalam keadaan dinonaktifkan */
+        }
+/**--Akhir pages--**/       
